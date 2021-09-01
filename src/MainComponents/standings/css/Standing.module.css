@@ -1,0 +1,42 @@
+@import url('../../../MainCssVariables.css');
+
+.root{
+	text-align: center;
+	color: rgb(10 , 10 , 10);
+	font-weight: 500;
+	text-decoration: none;
+	cursor: pointer;
+	border-bottom: 1px solid rgb(40 , 40 , 40);
+	padding: 10px;
+	justify-content: flex-end;
+	height: 40px;
+}
+
+.root p{
+	font-size: var(--SMALL-FONT);
+	font-weight: 800;
+}
+
+img{
+	height: 25px;
+	width: 25px;
+	border-radius: 10px;
+
+}
+
+.info{
+	padding-left: 30px;
+}
+
+.root:hover{
+	background-color: rgb(30, 30, 30);
+	color: aliceblue;
+	border-radius: 3px;
+	border-bottom: 0;
+}
+
+@media (max-width : 600px){
+	.root p{
+		font-size: var(--XS-FONT);
+	}
+}

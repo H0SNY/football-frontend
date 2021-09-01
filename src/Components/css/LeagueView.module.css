@@ -1,0 +1,91 @@
+@import url('../../MainCssVariables.css');
+
+.root p{
+	font-weight: 400;
+
+}
+
+.overlay{
+	 position: absolute;
+  	top: 0;
+ 	 left: 0;
+	  width: 100%;
+	  height: 100%;
+	  background-color: rgba(0, 0, 0, 0.6);
+	  backdrop-filter: blur(3px);
+	  z-index: 5;
+}
+
+.calenderRoot{
+	margin-top: 50px;
+	background-color: rgb(30 , 30 , 30);
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.row{
+	padding: 10px;
+	padding-left: 20px;
+	justify-content: center;
+}
+
+.matchday{
+	width: 6.66%;
+	margin-left: 2px;
+	margin-right: 2px;
+	border: 1px solid rgba(0, 0, 0, 0.6);
+	text-align: center;
+	font-size: var(--XS-FONT);
+	background-color: var(--HEADER-BG);
+	color: var(--WHITE-TEXT);
+	border-radius: 5px;
+}
+
+.stage{
+	font-family: 'Courier New', Courier, monospace;
+	width: 33%;
+	color:aliceblue;
+	background-color: rgb(100, 100, 245);
+	margin: 0 20px 0 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	padding: 5px;
+}
+
+.stage p{
+	font-size: var(--SMALL-FONT);
+	font-weight: 1000;
+}
+
+.stage:hover{
+	background-color: rgb(41, 146, 146);
+}
+
+
+.currentmatchday{
+	text-align: center;
+	justify-content: center;
+	font-size: var(--LARGE-FONT);
+	color: rgb(250 , 200 , 200);
+	background-color : rgb(20 , 20 , 20);
+}
+
+.currentmatchday p{
+	font-weight: 600;
+	
+}
+.matchday:hover{
+	background-color: var(--GREY-BG);
+	cursor:pointer;
+}
+
+@media (max-width : 600px){
+	.stage p{
+		font-size: var(--XS-FONT);
+		font-weight: 500;
+	}
+
+	.stage{
+		width: 25%;
+	}
+}

@@ -1,0 +1,42 @@
+@import url('../../../MainCssVariables.css');
+
+.root{
+	flex-direction: column;
+	width: 150px;
+	height: 100px;
+	text-decoration: none;
+	color: aliceblue;
+	border: 1px aliceblue solid;
+	border-radius: 3px;
+	font-size: var(--SMALL-FONT);
+
+}
+
+.root p{
+	font-weight: 600;
+
+}
+
+.root:hover{
+	border: 2px aliceblue solid;
+	border-radius: 3px;
+}
+
+.name{
+	background-color: var(--PURPLE-BG);
+	height: 50px;
+	
+}
+
+
+
+
+.root div{
+	text-align: center;
+}
+
+@media (max-width : 600px) {
+	.root p{
+		font-size: var(--XS-FONT);
+	}
+}

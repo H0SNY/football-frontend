@@ -1,0 +1,13 @@
+@import url('../../../MainCssVariables.css');
+
+.playerRoot{
+	text-align: center;
+	margin: 20px;
+	background-color: var(--GREY-BG);
+	border-radius: 10px;
+}
+
+.playerRoot div{
+	width: 20%;
+	margin: 5px;
+}

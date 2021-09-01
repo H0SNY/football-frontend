@@ -1,0 +1,16 @@
+
+:root{
+	--NAV-BG : rgb(0, 87, 163);
+	--HEADER-BG : rgb(0, 76, 143);
+	--BLACK-TEXT : rgb(20 , 20 , 20);
+	--WHITE-TEXT : rgb(245 , 245 , 245);
+	--DARK-BG : hsl(0 , 5% , 2%);
+	--XS-FONT : 10px;
+	--SMALL-FONT : 12px;
+	--MEDUIM-FONT : 15px;
+	--LARGE-FONT : 25px;
+	--HEADER-FONT : 30px;
+	--GREY-BG : rgb(30 , 30 , 30);
+	--ROBOTO-FONT : 'Roboto', sans-serif;
+	--PURPLE-BG : rgb(100, 100, 245);
+}

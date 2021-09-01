@@ -1,0 +1,30 @@
+@import url('../../../MainCssVariables.css');
+
+.leagueDescRoot{
+	background-color: var(--HEADER-BG);
+	font-weight: 800 !important;
+	font-family: 'Courier New', Courier, monospace;
+	text-decoration: none;
+	color : aliceblue;
+}
+
+.leagueDescRoot div{
+	width : 25%;
+	text-align: center;
+}
+
+.leaguesRootText{
+	font-weight: 700;
+}
+
+.leaguesRoot{
+	background-color: rgb(220 , 220 , 200);
+	margin: 10px 20px;
+	border-radius: 5px;
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+@media (max-width : 600px){
+	.leagueDescRoot{
+		font-size: 15px;
+	}
+}

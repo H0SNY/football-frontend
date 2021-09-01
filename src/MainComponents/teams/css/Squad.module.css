@@ -1,0 +1,21 @@
+.squadRoot{
+	font-size: 0.7em;
+}
+
+.playerDescRoot{
+	text-align: center;
+	background-color: #536591;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.playerDescRoot div{
+	width: 20%;
+	margin: 5px;
+}
+
+@media (max-width : 600px) {
+	.squadRoot{
+		font-size: 10px;
+	}		
+}

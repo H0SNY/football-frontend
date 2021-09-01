@@ -1,0 +1,88 @@
+@import url('../../MainCssVariables.css');
+
+.coverageRoot{
+	background-color: var(--HEADER-BG);
+	width:100%;
+	font-size: var(--LARGE-FONT);
+	height: 100px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+	text-align: center;
+	font-weight: 800;
+}
+
+
+
+.coverageRoot div{
+	width:100%;
+}
+.coverageRoot p{
+	margin-left: 50px;
+	color: aliceblue;
+}
+
+.calenderRoot{
+	background-color: rgb(30 , 30 , 30);
+	justify-content: space-evenly;
+	text-align: center;
+	color: aliceblue;
+}
+
+.row{
+	padding: 10px;
+	justify-content: space-evenly;
+}
+
+.day{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(100, 100, 245);
+	margin : 0 20px 0 20px;
+	border-radius: 20px;
+	padding: 20px;
+	cursor: pointer;
+	height: 50px;
+	width: 14%;
+}
+
+.day p{
+	font-weight: 800;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: var(--SMALL-FONT);
+}
+
+.day:hover{
+	background-color: rgb(41, 146, 146);
+}
+
+.curr{
+	display: flex;
+	color: aliceblue;
+	text-align: center;
+	justify-content: center;
+	font-size: var(--LARGE-FONT);
+	color: rgb(250 , 200 , 200);
+	background-color : rgb(20 , 20 , 20);
+}
+
+.curr p{
+	font-weight: 600;
+}
+@media (max-width : 600px) {
+	
+	.day{
+		width: 10%;
+		height: 50px;
+		padding: 5px;
+	}
+	
+	.day p{
+		font-size: var(--XS-FONT);
+
+	}
+	.coverageRoot p{
+		margin-left: 15px;
+		font-size: var(--MEDIUM-FONT);
+	}
+
+}

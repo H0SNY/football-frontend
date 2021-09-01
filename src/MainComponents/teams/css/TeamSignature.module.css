@@ -1,0 +1,17 @@
+.root{
+	justify-content: center;
+	background-color: #536591;
+	width: 100%;
+}
+
+.root div{
+	margin: 20px;
+}
+
+.img{
+	
+	height : 50px; 
+	width : 50px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}

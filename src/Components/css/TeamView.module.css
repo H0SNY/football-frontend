@@ -1,0 +1,53 @@
+
+.teamRoot{
+	flex-direction: column;
+	color: white;
+		
+}
+
+.activeCompetitionsRoot{
+	flex-direction: column;
+	margin: 0px 0px 10px 0px;
+}
+
+.activeCompetitionsDesc{
+	justify-content: center;
+	background-color: var(--GREY-BG);
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+
+.competitions{
+	justify-content: space-evenly;
+}
+
+.competitionPreviewRoot{
+	margin: 0 10px 0 10px;
+}
+
+.matchesDesc{
+	text-align: center;
+	background-color: var(--PURPLE-BG);
+	margin-top: 50px;
+}
+.matchesRoot{
+	flex-direction: column;
+}
+
+.squadDesc{
+	text-align: center;
+	background-color: var(--PURPLE-BG);
+	margin-top: 50px;
+}
+
+.buttonRoot{
+	justify-content: center;
+}
+
+.buttonRoot button{
+	cursor: pointer;
+	border-radius: 10px;
+	border: white;
+	background-color: brown;
+}
+

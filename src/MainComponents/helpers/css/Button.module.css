@@ -1,0 +1,17 @@
+
+.basic-container{
+	margin: 50px;
+	border-radius : 10px;
+	
+}
+.button{
+	background-color: rgb(10 , 20 , 200);
+	height: 100%;
+	width: 100%;
+}
+
+.button:hover{
+	background-color: var(--MAIN-HOVER);
+}
+
+

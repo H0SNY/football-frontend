@@ -1,0 +1,51 @@
+
+.navBar{
+	background-color:  rgb(20 , 20 , 20);	;
+	text-align: center;
+	margin:0px;
+	padding: 0px;
+	width: 100%;
+	height: 70px;
+	justify-content: space-between;
+}
+
+.navBar > div{
+	height: 100%;
+}
+
+.navBar p{
+	height: 100%;
+	margin-top: 32px;
+	padding-bottom: 15px;
+	font-weight: 600;
+}
+
+.myLink{
+	font-weight: 500;
+	color: aliceblue;
+	text-decoration: none;
+}
+.firstLink{
+	margin-top: 50px;
+}
+
+.myLink p:hover{
+	 border-bottom: 5px solid aliceblue;
+}
+
+.logo{
+	position: relative;
+	top: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+@media screen and (max-width : 600px){
+	.navBar{
+		font-size: 12px;
+	}
+	
+	.myLink p:hover{
+		border-bottom: 10px solid aliceblue;
+       }
+}

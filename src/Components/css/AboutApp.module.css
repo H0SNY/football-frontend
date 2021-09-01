@@ -1,0 +1,149 @@
+@import url('../../MainCssVariables.css');
+
+.root{
+	color: aliceblue;
+	font-size: 0.9em;
+}
+
+.frontendRoot{
+	flex-direction: column;
+	margin-bottom: 100px;
+}
+
+.backendRoot{
+	flex-direction: column;
+}
+
+.frontendheaderRoot{
+	width: 95%;
+	margin: 20px;
+	justify-content: center;
+	background-color: var(--HEADER-BG);
+	border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+	color : aliceblue;
+	text-decoration: none;
+	
+}
+
+.backendheaderRoot{
+	width: 95%;
+	margin : 20px;
+	justify-content: center;
+	background-color: rgb(80, 20, 20);
+	border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.frontendpreviewRoot a{
+	font-weight: 800;
+	font-size: 1.2em;
+	width: 95%;
+	margin: 20px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: brown;
+	text-decoration: none;
+	color: rgb(10 , 10 , 10);
+}
+
+
+.backendpreviewRoot{
+	flex-direction: row;
+	text-align: center;
+}
+
+.backendpreviewRoot a {
+	width: 23%;
+	margin: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.backendpreviewRoot a p{
+	color: aliceblue;
+	
+}
+.p1{
+	background-color: brown;
+}
+
+.p2{
+	background-color: rgb(131, 33, 33);
+}
+
+.p3{
+	background-color: rgb(82, 18, 18);
+}
+
+.p4{
+	background-color: rgb(43, 5, 5);
+}
+
+
+.frontendcontentRoot{
+	flex-direction: column;
+}
+
+.backendcontentRoot{
+	flex-direction: column;
+}
+
+.frontendcontentRoot div{
+	width: 95%;
+	text-align: center;
+	margin: 20px;
+	border-radius: 10px;
+	background-color: rgb(30 , 30 , 30);
+}
+
+.backendcontentRoot div{
+	width: 95%;
+	text-align: center;
+	margin: 20px;
+	border-radius: 10px;
+	background-color: rgb(30 , 30 , 30);
+}
+
+
+
+.backendpreviewRoot a:hover{
+	background-color: rgb(90, 10, 10);
+}
+.frontendpreviewRoot a:hover{
+	background-color: rgb(90, 10, 10);
+	color: aliceblue !important;
+}
+
+
+
+@media (max-width : 600px) {
+	.root{
+		font-size: 12px;
+	}
+	
+	.frontendheaderRoot{
+	margin: 10px;
+	}
+
+	.backendheaderRoot{
+		margin: 10px;
+	}
+
+
+	.frontendpreviewRoot a{
+	margin: 10px;
+}
+
+.frontendcontentRoot div{
+	margin: 10px;
+}
+
+.backendcontentRoot div{
+	margin: 10px;
+}
+
+
+
+	
+}

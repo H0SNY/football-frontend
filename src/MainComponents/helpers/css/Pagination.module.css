@@ -1,0 +1,25 @@
+.control div{
+	display: flex;
+	width: 33%;
+	justify-content: space-evenly;
+	font-weight: 500;
+}
+
+.control button{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border: 1px;
+	background-color: rgb(100, 100, 245);
+	cursor: pointer;
+	width: 70%;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.control p{
+	color: aliceblue;
+}
+
+.control button:hover{
+	color : white;
+}

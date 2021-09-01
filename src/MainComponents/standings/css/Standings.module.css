@@ -1,0 +1,53 @@
+@import url('../../../MainCssVariables.css');
+
+
+.descRoot{
+	text-align: center;
+	color: white;
+	font-weight: 500;
+	border-radius : 10px;
+	margin-top: 10px;
+	padding: 10px 10px 0px 10px;
+	
+}
+
+.group{
+	text-align: center;
+	color: aliceblue;
+}
+
+.standingsRoot{
+	margin : 0 10px 0 10px;
+	border-radius: 10px;
+	
+}
+
+.info{
+	padding-left: 30px;
+}
+
+.standingsRoot p{
+	color: var(--WHITE-TEXT);
+	font-weight: 500;
+}
+
+.pagination{
+	margin-top: 20px;
+}
+
+.nogroups{
+	text-align: center;
+	justify-content: center;
+}
+
+.nogroups p{
+	color: rgb(200 , 20 , 20);
+	font-weight: 900;
+	font-size: var(--MEDUIM-FONT);
+}
+
+@media (max-width : 600px){
+	.descRoot p{
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,9 @@
+export const SET_MATCHES = 'set_leagues';
+export const SET_LOADING = 'set-loading';
+export const SET_ERR = 'asd64as6d4as68das8d4a6sd4';
+export const REMOVE_ERR = 'a6sd456as4d6';
+export const SET_CALENDER_TOTAL = 'asmdklasmdasdas4d';
+export const SET_CALENDER_DAY = 'df3g4df65g161v65df16g5';
+export const SET_PAGINATION = '65ASD465AS4D65AS4D65';
+export const SET_PAGINATION_PAGE = 'ASD34AS3D5A6SD4A654D65AS4D65';
+export const RESET = 'df4sd65f46ds1f6s5df6sdfsdfsdbfh';
