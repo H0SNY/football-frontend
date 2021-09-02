@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //backend domain
-const root = process.env.REACT_APP_BACKEND || `http://h0sny.us-east-2.elasticbeanstalk.com`;
+const root = process.env.REACT_APP_BACKEND || `https://radiant-plains-66499.herokuapp.com`;
 
 //function to get all leagues info
 export async function getAllLeagues(){
